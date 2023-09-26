@@ -1,0 +1,13 @@
+title,description,price,quantity,category_id,warehouse_id,brand_id,status
+Dell E-4530,Dell E-4530,45690,30,Laptop,Warehouse-2,Accesor,1
+HP P-q-242,HP P-q-242,1200,30,Laptop,Warehouse-4,HP,0
+Gaming machine,Gaming machine,211111,500,Laptop,Warehouse-5,Game,1
+Lenovo-4530,Lenovo-4530,45690,32,Laptop,Warehouse-2,Accesor,1
+G4- 840,G4- 840,1200,7,Laptop,Warehouse-4,HP,0
+Hp-HQ,Hp-HQ,211111,32,Laptop,Warehouse-5,Game,1
+Dell P-342,Dell P-342,45690,30,Laptop,Warehouse-2,Accesor,1
+Mouse,Mouse,1200,90,mouse,Warehouse-4,HP,0
+LCD,LCD,211111,321,lcd,Warehouse-5,hp,1
+Macbook Air,Macbook Air,45690,88,Laptop,Warehouse-2,Accesor,1
+Macbook Pro,Macbook Pro,1200,45,Laptop,Warehouse-4,HP,0
+Gaming zone,Gaming zone,211111,12,Laptop,Warehouse-5,Game,1
