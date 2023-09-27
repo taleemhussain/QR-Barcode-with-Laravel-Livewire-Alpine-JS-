@@ -1,4 +1,4 @@
-Functionlity in the project:
+Functionality  in the project:
 1- admin template in livewire and alpine js
 2- QR code scanner
 3- Barcode scanner
