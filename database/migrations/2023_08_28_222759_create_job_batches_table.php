@@ -16,6 +16,8 @@ return new class extends Migration
             $table->string('name');
             $table->integer('total_jobs');
             $table->integer('pending_jobs');
+            $table->integer('total_records');
+            $table->integer('total_added');
             $table->integer('failed_jobs');
             $table->longText('failed_job_ids');
             $table->mediumText('options')->nullable();

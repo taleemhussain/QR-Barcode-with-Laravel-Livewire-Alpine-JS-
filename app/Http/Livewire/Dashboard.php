@@ -32,15 +32,17 @@ class Dashboard extends Component
             $query->where('orders.user_id', $this->user_id);
         })->get();
         
-        $this->categories = Categories::select('category.*')
+        $this->categories = Categories::select('category.id', 'category.title') 
         ->selectRaw('COUNT(orders.id) as order_count')
         ->selectRaw('SUM(orders.quantity) as total_quantity')
         ->join('products', 'category.id', '=', 'products.category_id')
         ->join('orders', 'products.id', '=', 'orders.product_id')
-        ->groupBy('category.id')
+        ->groupBy('category.id', 'category.title') 
         ->when($this->user_id, function ($query) {
             $query->where('orders.user_id', $this->user_id);
-        })->get();
+        })
+        ->get();
+    
         return view('livewire.dashboard')->layout('livewire.layouts.base');
     }
 }

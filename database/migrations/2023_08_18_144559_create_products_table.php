@@ -17,8 +17,8 @@ return new class extends Migration
             $table->float('price',8,2)->nullable()->default(null);
             $table->integer('quantity')->nullable()->default(null);
             $table->integer('category_id')->nullable()->default(null);
-            $table->integer('brand')->nullable()->default(null);
-            $table->integer('warehouse')->nullable()->default(null);
+            $table->integer('brand_id')->nullable()->default(null);
+            $table->integer('warehouse_id')->nullable()->default(null);
             $table->string('sku')->nullable()->default(null);
             $table->string('image')->nullable()->default(null);
             $table->text('description')->nullable()->default(null);;
