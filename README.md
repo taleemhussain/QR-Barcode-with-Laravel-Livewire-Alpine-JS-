@@ -1,3 +1,32 @@
+functionality  in the project:
+1- admin template in livewire and alpine js
+2- QR code scanner
+3- Barcode scanner
+4- Laravel Multi auth Guard
+5- Large CSV file uploading Functionlity.
+6- Uploaded csv file in chunks using laravel queue jobs
+7- Show the file uploadeding progress bar in real time
+
+Read the below steps to run the project.
+1- composer update
+2- npm install 
+3- open the project in terminal 
+4- php artisan migrate
+5- php artisan db:seed
+4- npm run dev
+5- php artisan serve
+6- http://127.0.0.1:8000
+
+Login admin:
+Email: admin@example.com
+Password: 12345678
+Link: http://127.0.0.1:8000/admin/login
+
+Login user:
+Email: johnsimth@example.com
+Password: 12345678
+Link: http://127.0.0.1:8000/login 
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
